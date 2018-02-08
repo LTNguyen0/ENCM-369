@@ -20,7 +20,6 @@ int main(void)
 void report(int celsius_temp)
 {
   if (celsius_temp <= 0) goto negative_code;
-	fewfewr3qtw 
   if (celsius_temp <= 14) goto less_than_14;
   if (celsius_temp <= 26) goto less_than_26;
   goto else_code;
